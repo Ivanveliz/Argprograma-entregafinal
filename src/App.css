@@ -1,0 +1,106 @@
+:root {
+  --violetaOscuro: #171723;
+  --violetaMedio: #24273d;
+  --violetaClaro: #9093c3;
+  --blanco: #ebebeb;
+  --VioletaGrisaceo: #686a8d;
+  --gris: rgb(194, 192, 192);
+}
+
+/*---- Container general view ----*/
+.containerApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(
+    79.55% 73.87% at 51.2% 50%,
+    #9093c3 0%,
+    #24273d 100%
+  );
+  min-height: 100vh;
+}
+
+/*---- Header Form ----*/
+.headerForm {
+  background-color: var(--violetaMedio);
+  display: flex;
+  flex-direction: column;
+  height: 278px;
+  width: 600px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Switch */
+.react-switch {
+  vertical-align: middle;
+  margin-left: 4px;
+  margin: 10px;
+  float: inline-end;
+}
+
+/* Theme - Dark /Ligth */
+#Dark {
+  background: radial-gradient(
+    79.55% 73.87% at 51.2% 50%,
+    #9093c3 0%,
+    #24273d 100%
+  );
+}
+
+#Light {
+  background: radial-gradient(
+    79.55% 73.87% at 51.2% 50%,
+    #24273d 0%,
+    #9093c3 100%
+  );
+}
+
+#formLight {
+  background: var(--blanco);
+}
+
+#formImputLight {
+  background: rgb(194, 192, 192);
+  color: var(--VioletaGrisaceo);
+}
+#formImputDark {
+  background: var(--violetaClaro);
+  color: var(--violetaOscuro);
+}
+
+#iconAddLight {
+  color: var(--VioletaGrisaceo);
+}
+
+#listLight {
+  background: var(--blanco);
+  color: var(--VioletaGrisaceo);
+}
+
+#spanLight {
+  color: var(--VioletaGrisaceo);
+}
+
+#spanDark {
+  color: var(--violetaOscuro);
+}
+
+#iconTrashDark{
+  color: var(--violetaOscuro);
+}
+
+#iconTrashLight{
+  color: var(--VioletaGrisaceo);
+}
+
+#title{
+  color: var(--blanco);
+}
+
+#spanNumeroLight{
+  color: var(--VioletaGrisaceo);
+}
